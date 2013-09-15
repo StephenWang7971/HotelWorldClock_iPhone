@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "City.h"
 
 @interface SecViewController : UIViewController
+
+@property City * beijing;
+@property City * london;
+@property City * sydney;
+//@property City * newYork;
+@property City * moscow;
+@property City * tokyo;
+
 
 @end

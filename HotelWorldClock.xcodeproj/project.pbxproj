@@ -24,6 +24,8 @@
 		D5192FA217E477DB001E9B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5192F7A17E477DB001E9B7A /* Foundation.framework */; };
 		D5192FAA17E477DB001E9B7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5192FA817E477DB001E9B7A /* InfoPlist.strings */; };
 		D5192FAD17E477DB001E9B7A /* HotelWorldClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5192FAC17E477DB001E9B7A /* HotelWorldClockTests.m */; };
+		D5192FC017E47F79001E9B7A /* TimeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D5192FBF17E47F79001E9B7A /* TimeServer.m */; };
+		D5192FC317E481DC001E9B7A /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = D5192FC217E481DC001E9B7A /* City.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		D5192FA917E477DB001E9B7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5192FAB17E477DB001E9B7A /* HotelWorldClockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotelWorldClockTests.h; sourceTree = "<group>"; };
 		D5192FAC17E477DB001E9B7A /* HotelWorldClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelWorldClockTests.m; sourceTree = "<group>"; };
+		D5192FBE17E47F69001E9B7A /* TimeServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeServer.h; sourceTree = "<group>"; };
+		D5192FBF17E47F79001E9B7A /* TimeServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeServer.m; sourceTree = "<group>"; };
+		D5192FC117E481CF001E9B7A /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		D5192FC217E481DC001E9B7A /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 		D5192F7E17E477DB001E9B7A /* HotelWorldClock */ = {
 			isa = PBXGroup;
 			children = (
+				D5192FB717E47DDF001E9B7A /* Classes */,
 				D5192F8717E477DB001E9B7A /* SecAppDelegate.h */,
 				D5192F8817E477DB001E9B7A /* SecAppDelegate.m */,
 				D5192F9017E477DB001E9B7A /* MainStoryboard_iPhone.storyboard */,
@@ -161,6 +168,17 @@
 				D5192FA817E477DB001E9B7A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5192FB717E47DDF001E9B7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5192FBE17E47F69001E9B7A /* TimeServer.h */,
+				D5192FBF17E47F79001E9B7A /* TimeServer.m */,
+				D5192FC117E481CF001E9B7A /* City.h */,
+				D5192FC217E481DC001E9B7A /* City.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +296,8 @@
 				D5192F8517E477DB001E9B7A /* main.m in Sources */,
 				D5192F8917E477DB001E9B7A /* SecAppDelegate.m in Sources */,
 				D5192F9817E477DB001E9B7A /* SecViewController.m in Sources */,
+				D5192FC017E47F79001E9B7A /* TimeServer.m in Sources */,
+				D5192FC317E481DC001E9B7A /* City.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +482,7 @@
 				D5192FB217E477DB001E9B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5192FB317E477DB001E9B7A /* Build configuration list for PBXNativeTarget "HotelWorldClockTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +491,7 @@
 				D5192FB517E477DB001E9B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
